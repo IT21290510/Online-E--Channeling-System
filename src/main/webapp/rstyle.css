@@ -1,0 +1,160 @@
+@charset "ISO-8859-1";
+body{
+  background-image: url('image/appimg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.button {
+  font-size: 14px;
+  background: #f56767;
+  width: 90px;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.button1 {
+  display: inline-block;
+  padding: 10px;
+}
+.btn1{
+  font-size: 14px;
+  background: #f56767;
+  width: 90px;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.word{
+  cursor: pointer;
+}
+ul.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  border-radius: 12px;
+}
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: #fae3d9;
+}
+#slider{
+  overflow: hidden;
+}
+#slider figure{
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  animation: 20s slider infinite;
+}
+#slider figure img{
+  float: left;
+  width: 20%;
+}
+@keyframes slider{
+  0%{left: 0;}
+  20%{left: 0;}
+  25%{left: -100%;}
+  45%{left: -100%;}
+  50%{left: -200%;}
+  70%{left: -200%;}
+  75%{left: -300%;}
+  95%{left: -300%;}
+  100%{left: -400%;}
+}
+.textDeco{
+  text-decoration: none;
+}
+.signup-btn {
+  background-color: #A8A8A8;
+  color: #2E2727;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+}
+
+.signup-btn:hover {
+  background-color: #2980b9;
+  cursor: pointer;
+}
+
+.Select_btn{
+    display: inline-block;
+    padding: 50px;
+}
+.btn1{
+    font-size: 16px;
+    background: #f56767;
+    width: 400px;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+
+  .my-table {
+    border-collapse: collapse;
+    width: 50%;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+  }
+
+  .my-table th, .my-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+
+  .my-table th {
+    background-color: #f2f2f2;
+  }
+
+  .my-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+  .my-table tr:hover {
+    background-color: #ddd;
+  }
+
+.btn{
+  background-color: #A29D9D;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: block;
+  margin: auto;
+}

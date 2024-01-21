@@ -1,0 +1,62 @@
+@charset "ISO-8859-1";
+.form-title {
+  text-align: center;
+}
+
+  .patient-form {
+  border: 2px solid #ccc;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  background-color: #f5f5f5;
+  margin: 0 auto;
+  width: 50%;
+}
+
+.form-input {
+  margin-bottom: 10px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  width: 100%;
+  max-width: 300px;
+}
+
+.form-select {
+  margin-bottom: 10px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  width: 100%;
+  max-width: 300px;
+}
+
+.form-radio {
+  margin-right: 10px;
+}
+
+.form-button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex-grow: 1;
+}
+
+footer {
+  flex-shrink: 0;
+}

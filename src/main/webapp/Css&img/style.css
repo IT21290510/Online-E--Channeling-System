@@ -1,0 +1,15 @@
+.Select_btn{
+    display: inline-block;
+    padding: 50px;
+}
+.btn1{
+    font-size: 16px;
+    background: #f56767;
+    width: 400px;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+}
